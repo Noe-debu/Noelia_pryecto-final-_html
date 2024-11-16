@@ -1,0 +1,404 @@
+/* Configuración general */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9bcbf;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+
+h1, h2, h4 {
+    font-family: 'Indie Flower', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #e51286;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+header h4 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* Menú de navegación */
+nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav .menu li {
+    margin: 0 10px;
+    display: inline-block; /* Asegura que los elementos estén en una sola línea */
+}
+
+nav .menu li a {
+    color: #f0f0f0;
+    padding: 10px 15px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+nav .menu li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+
+/* Estilo para el main */
+main {
+    padding: 20px;
+}
+
+main h1, main h2 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section#home {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+section#home img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Botón de volver arriba */
+.boton {
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #555;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #f0f0f0;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ddd;
+}
+/*contexto*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f291a8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.logo-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    text-align: center;
+    background-color: #444;
+    padding: 15px;
+}
+
+nav h1, nav h4 {
+    color: #f0f0f0;
+    margin: 0;
+    font-weight: 500;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.menu li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #1327d8;
+}
+
+/* Sección principal */
+.page {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+/* Estilo base para todas las tarjetas */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para la tarjeta "home" */
+.card.home h1 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Estilo para la tarjeta "contexto" */
+.card.contexto h2 {
+    color: #444;
+    font-size: 22px;
+}
+.card.contexto p {
+    color: #666;
+}
+
+/* Estilo para la tarjeta "poblacion" */
+.card.poblacion h2 {
+    color: #007BFF;
+    font-size: 24px;
+}
+.poblacion-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+/* Estilo para la tarjeta "vision" */
+.card.vision h2 {
+    color: #28A745;
+    text-transform: uppercase;
+}
+.card.vision p {
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Estilo para la tarjeta "objetivo" */
+.card.objetivo h2 {
+    font-size: 24px;
+    color: #FF5722;
+    text-align: center;
+}
+.card.objetivo p {
+    color: #666;
+}
+
+/* Estilo para "uso de las TIC" */
+.card.uso-tic h2 {
+    color: #673AB7;
+}
+.card.pei h2 {
+    color: #E91E63;
+}
+.pei-image {
+    width: 20%;
+    max-width: 100px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.card.pci h2 {
+    color: #9C27B0;
+}
+
+
+
+/* Imágenes redondeadas */
+.rounded-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+/* Botón */
+.boton {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #444;
+    color: #f0f0f0;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+--------------------------
+ /* Estilo para el botón */
+ /*.boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}*/
+
+.boton:hover {
+    background-color: #555;
+}
+
+
+  /* Estilos para las tablas */
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            background-color: #f5f5f5;
+        }
+        th, td {
+            border: 1px solid #eae8e9;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #e7557e;
+            color: #fff;
+            font-weight: bold;
+            text-align: left;
+        }
+        td {
+            text-align: justify;
+        }
+        /* Estilo para el botón */
+        .boton {
+            background-color: #071129;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            justify-content: center;
+        }
+        .boton:hover {
+            background-color: #d4cfde;
+        }
+    
+        
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        
+        footer a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        footer .classroom-code {
+            font-weight: bold;
+            color: #ffa726;
+        }
+        
+        footer button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #00bcd4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        footer button:hover {
+            background-color: #0097a7;
+        }
+        
+    
